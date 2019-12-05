@@ -17,12 +17,9 @@ def directors_totals(nds)
         "Francis Ford Coppola"=>509719258
       } 
   
-  total = 0 
-  result.each do |k, v|
-    total += v 
-  end 
+
   
-  return total
+  return result
 
 
   nil
