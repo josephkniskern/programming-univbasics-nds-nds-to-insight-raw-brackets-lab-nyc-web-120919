@@ -20,7 +20,9 @@ def directors_totals(nds)
   total = 0 
   result.each do |k, v|
     total += v 
-  end
+  end 
+  
+  return total
 
 
 
